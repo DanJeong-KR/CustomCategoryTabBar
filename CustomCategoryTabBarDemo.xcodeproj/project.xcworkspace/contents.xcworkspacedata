@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CustomCategoryTabBar.xcodeproj">
+      location = "self:/Users/changsicjung/Desktop/CustomCategoryTabBar/CustomCategoryTabBarDemo.xcodeproj">
    </FileRef>
 </Workspace>

@@ -60,7 +60,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E72B84E22DDB4A300E70D0D /* CustomCategoryTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCategoryTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E72B84E22DDB4A300E70D0D /* CustomCategoryTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCategoryTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E72B85122DDB4A300E70D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E72B85822DDB4A800E70D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E72B85B22DDB4A800E70D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		8E72B84522DDB4A300E70D0D = {
 			isa = PBXGroup;
 			children = (
-				8E72B85022DDB4A300E70D0D /* CustomCategoryTabBar */,
+				8E72B85022DDB4A300E70D0D /* CustomCategoryTabBarDemo */,
 				8E72B84F22DDB4A300E70D0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,12 +136,12 @@
 		8E72B84F22DDB4A300E70D0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E72B84E22DDB4A300E70D0D /* CustomCategoryTabBar.app */,
+				8E72B84E22DDB4A300E70D0D /* CustomCategoryTabBarDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E72B85022DDB4A300E70D0D /* CustomCategoryTabBar */ = {
+		8E72B85022DDB4A300E70D0D /* CustomCategoryTabBarDemo */ = {
 			isa = PBXGroup;
 			children = (
 				8E72B85122DDB4A300E70D0D /* AppDelegate.swift */,
@@ -154,7 +154,7 @@
 				8E72B85D22DDB4A800E70D0D /* Info.plist */,
 				8E72B87522DDB5F400E70D0D /* CustomCategoryTabBar */,
 			);
-			path = CustomCategoryTabBar;
+			path = CustomCategoryTabBarDemo;
 			sourceTree = "<group>";
 		};
 		8E72B86522DDB52500E70D0D /* View */ = {
@@ -242,9 +242,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E72B84D22DDB4A300E70D0D /* CustomCategoryTabBar */ = {
+		8E72B84D22DDB4A300E70D0D /* CustomCategoryTabBarDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E72B86022DDB4A800E70D0D /* Build configuration list for PBXNativeTarget "CustomCategoryTabBar" */;
+			buildConfigurationList = 8E72B86022DDB4A800E70D0D /* Build configuration list for PBXNativeTarget "CustomCategoryTabBarDemo" */;
 			buildPhases = (
 				8E72B84A22DDB4A300E70D0D /* Sources */,
 				8E72B84B22DDB4A300E70D0D /* Frameworks */,
@@ -254,9 +254,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomCategoryTabBar;
+			name = CustomCategoryTabBarDemo;
 			productName = CustomCategoryTabBar;
-			productReference = 8E72B84E22DDB4A300E70D0D /* CustomCategoryTabBar.app */;
+			productReference = 8E72B84E22DDB4A300E70D0D /* CustomCategoryTabBarDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E72B84922DDB4A300E70D0D /* Build configuration list for PBXProject "CustomCategoryTabBar" */;
+			buildConfigurationList = 8E72B84922DDB4A300E70D0D /* Build configuration list for PBXProject "CustomCategoryTabBarDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -287,7 +287,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E72B84D22DDB4A300E70D0D /* CustomCategoryTabBar */,
+				8E72B84D22DDB4A300E70D0D /* CustomCategoryTabBarDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -498,7 +498,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KH53J489YG;
-				INFOPLIST_FILE = CustomCategoryTabBar/Info.plist;
+				INFOPLIST_FILE = CustomCategoryTabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,7 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KH53J489YG;
-				INFOPLIST_FILE = CustomCategoryTabBar/Info.plist;
+				INFOPLIST_FILE = CustomCategoryTabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,7 +531,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E72B84922DDB4A300E70D0D /* Build configuration list for PBXProject "CustomCategoryTabBar" */ = {
+		8E72B84922DDB4A300E70D0D /* Build configuration list for PBXProject "CustomCategoryTabBarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E72B85E22DDB4A800E70D0D /* Debug */,
@@ -540,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E72B86022DDB4A800E70D0D /* Build configuration list for PBXNativeTarget "CustomCategoryTabBar" */ = {
+		8E72B86022DDB4A800E70D0D /* Build configuration list for PBXNativeTarget "CustomCategoryTabBarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E72B86122DDB4A800E70D0D /* Debug */,
