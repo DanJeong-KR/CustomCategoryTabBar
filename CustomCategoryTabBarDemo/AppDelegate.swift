@@ -19,9 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window = UIWindow(frame: UIScreen.main.bounds)
     window?.backgroundColor = .white
     window?.makeKeyAndVisible()
-    let vc = DemoViewController(withTitles: ["Yellow", "Red", "Blue"],
-                               withViews: [FirstDemoView(), SecondDemoView(), ThirdDemoView()],
-                               withScrollOption: true)
+    
+    let vc = DemoViewController(withTitles: ["Yellow", "Red", "Blue", ],
+                               withViews: [FirstDemoView(), SecondDemoView(), ThirdDemoView() ])
+    
     window?.rootViewController = vc
     
     return true

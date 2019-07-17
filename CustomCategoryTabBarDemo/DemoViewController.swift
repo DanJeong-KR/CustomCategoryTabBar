@@ -9,7 +9,6 @@
 import UIKit
 // CategoryTabBar 를 사용할 ViewController 에서 CategoryTabBarViewController 를 상속받는다.
 class DemoViewController: CategoryTabBarViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
 

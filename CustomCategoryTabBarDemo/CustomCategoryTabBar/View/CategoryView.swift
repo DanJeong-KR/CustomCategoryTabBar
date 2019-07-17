@@ -20,6 +20,7 @@ class CategoryView: UIView {
     cv.isPagingEnabled = true
     cv.showsHorizontalScrollIndicator = false
     cv.backgroundColor = .white
+    cv.allowsSelection = false
     addSubview(cv)
     cv.register(cell: CategoryCell.self)
     cv.dataSource = self.self
@@ -72,9 +73,7 @@ extension CategoryView: UICollectionViewDataSource, UICollectionViewDelegateFlow
 
   // MARK: - Delegate
   func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
-    print("offset : \(scrollView.contentOffset)")
-    print("velocity : \(velocity)")
-    print("targetContentOffset : \(targetContentOffset.pointee)")
+    
     let itemAt = Int(targetContentOffset.pointee.x / UIScreen.main.bounds.width)
 
     guard let pageDidScroll = categoryViewDidEndScroll else { return logger() }

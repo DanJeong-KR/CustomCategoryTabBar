@@ -19,7 +19,7 @@ class CategoryTabBarViewController: UIViewController {
 
   private var categoryViews: [UIView]!
 
-  init(withTitles categoryTitles: [String], withViews categoryViews: [UIView], withScrollOption tabBarScrollIsEnabled: Bool ) {
+  init(withTitles categoryTitles: [String], withViews categoryViews: [UIView], withScrollOption tabBarScrollIsEnabled: Bool = true ) {
     super.init(nibName: nil, bundle: nil)
     self.categoryTitles = categoryTitles
     self.categoryViews = categoryViews
@@ -76,12 +76,12 @@ class CategoryTabBarViewController: UIViewController {
     // 콜백으로 시점문제 해결
     self.categoryTabBarView.didSelectCategoryCell = {
       [weak self] index in
-
+      guard let self = self else { return logger("weak reference error") }
       // 내가 필요한 값 전달
-      self?.indicatorBarView.didSelectCategoryCell = index
+      self.indicatorBarView.didSelectCategoryCell = index
 
       // 스크롤을 위해 index 공유하기
-      self?.didSelectedCategoryCell = index
+      self.didSelectedCategoryCell = index
 
        // Controller 부분에서 애니메이션 적용.
       UIView.animate(withDuration: 0.5,
@@ -90,11 +90,12 @@ class CategoryTabBarViewController: UIViewController {
                      initialSpringVelocity: 1,
                      options: .curveEaseInOut,
                      animations: {
-                      self?.view.layoutIfNeeded()
+                      self.view.layoutIfNeeded()
       },
                      completion: nil)
 
-      self?.categoryView.pageCollectionView.selectItem(at: index, animated: true, scrollPosition: .centeredHorizontally)
+      let xOffset = CGFloat(index.item) * UIScreen.main.bounds.width
+      self.categoryView.pageCollectionView.setContentOffset(CGPoint(x: xOffset, y: 0), animated: true)
     }
   }
 
@@ -103,11 +104,12 @@ class CategoryTabBarViewController: UIViewController {
   private func categoryDidScroll() {
     self.categoryTabBarView.categoryDidScroll = {
       [weak self] scrollView in
-      let widthSize = UIScreen.main.bounds.width / CGFloat(self!.categoryTitles.count)
+      guard let self = self else { return logger("weak reference error") }
+      let widthSize = UIScreen.main.bounds.width / CGFloat(self.categoryTitles.count)
       let leftOffset = scrollView.contentOffset.x
 
-            self?.indicatorBarView.snp.updateConstraints {
-        $0.leading.equalTo(widthSize * CGFloat(self?.didSelectedCategoryCell?.row ?? 0) - leftOffset)
+            self.indicatorBarView.snp.updateConstraints {
+        $0.leading.equalTo(widthSize * CGFloat(self.didSelectedCategoryCell?.row ?? 0) - leftOffset)
       }
     }
   }
@@ -115,7 +117,7 @@ class CategoryTabBarViewController: UIViewController {
   private func categoryViewDidEndScroll() {
     categoryView.categoryViewDidEndScroll = {
       [weak self] itemAt in
-      guard let self = self else { return logger() }
+      guard let self = self else { return logger("weak reference error") }
       self.categoryTabBarView.categoryTabBarCollectionView.selectItem(at: IndexPath(item: itemAt, section: 0), animated: true, scrollPosition: .centeredHorizontally)
       self.categoryTabBarView.collectionView(self.categoryTabBarView.categoryTabBarCollectionView, didSelectItemAt: IndexPath(item: itemAt, section: 0))
     }

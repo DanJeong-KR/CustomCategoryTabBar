@@ -1,20 +1,20 @@
 //
-//  SecondCategoryView.swift
+//  CategoryView.swift
 //  HouseOfToday
 //
-//  Created by chang sic jung on 11/07/2019.
+//  Created by chang sic jung on 10/07/2019.
 //  Copyright © 2019 CHANGGUEN YU. All rights reserved.
 //
 
 import UIKit
 
-class SecondDemoView: UIView {
+class FirstDemoView: UIView {
 
-  lazy var secondLabel: UILabel = {
+  lazy var firstLabel: UILabel = {
     let lb = UILabel()
-    lb.backgroundColor = .red
+    lb.backgroundColor = .yellow
     lb.font = UIFont.boldSystemFont(ofSize: 40)
-    lb.text = "두 번째"
+    lb.text = "First!"
     addSubview(lb)
     return lb
   }()
@@ -29,7 +29,7 @@ class SecondDemoView: UIView {
   }
 
   private func makeConstraints() {
-    secondLabel.snp.makeConstraints {
+    firstLabel.snp.makeConstraints {
       $0.center.equalToSuperview()
     }
   }
