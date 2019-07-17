@@ -27,6 +27,16 @@ mady by **Sicc**
 
 2. Copy `CustomCategoryTabBar`Folder and Paste this file into your Project
 <figure>
+<a href="/assets/CategoryTabBarPath1.png">
+<img src="/assets/CategoryTabBarPath1.png">
+</a>
+</figure>
+<figure>
+<a href="/assets/CategoryTabBarPath2.png">
+<img src="/assets/CategoryTabBarPath2.png">
+</a>
+</figure>
+<figure>
 <a href="/assets/CustomCategoryTabBarFolder.png">
 <img src="/assets/CustomCategoryTabBarFolder.png">
 </a>
@@ -89,6 +99,16 @@ The image below is a true option, so you can scroll through the categories.
 1. DemoProject 를 다운로드 합니다.
 
 2. `CustomCategoryTabBar`Folder 를 복사하고 자신의 프로젝트에 붙여넣기를 합니다!
+<figure>
+<a href="/assets/CategoryTabBarPath1.png">
+<img src="/assets/CategoryTabBarPath1.png">
+</a>
+</figure>
+<figure>
+<a href="/assets/CategoryTabBarPath2.png">
+<img src="/assets/CategoryTabBarPath2.png">
+</a>
+</figure>
 <figure>
 <a href="/assets/CustomCategoryTabBarFolder.png">
 <img src="/assets/CustomCategoryTabBarFolder.png">
