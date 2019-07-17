@@ -14,9 +14,9 @@ mady by **Sicc**
 
 
 ### 언어 선택
-* [English](https://changsic.github.io/CustomCategoryView/#eng)
+* [English](#eng)
 
-* [한국어로 보기](https://changsic.github.io/CustomCategoryView/#kor)
+* [한국어로 보기](#kor)
 
 ---
 
