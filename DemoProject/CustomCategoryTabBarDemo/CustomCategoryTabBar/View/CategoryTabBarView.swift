@@ -10,12 +10,12 @@ import UIKit
 
 class CategoryTabBarView: UIView {
 
-  var categoryTitles: [String] = []
+  internal var categoryTitles: [String] = []
 
   /// 스크롤 가능한지 값 설정하기
   /// 마이페이지는 false 로 설정하고
   /// 홈은 true 로 설정해야 한다.
-  var isScrollEnabled: Bool! {
+  internal var isScrollEnabled: Bool! {
     didSet {
       categoryTabBarCollectionView.isScrollEnabled = self.isScrollEnabled
     }
@@ -40,9 +40,9 @@ class CategoryTabBarView: UIView {
   // TODO: - 글자 크기에 따라서 IndicatorBar 따라오는거 구현 보류. 너무 어렵다.
   let fontSize = ("마" as NSString).size(withAttributes: [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 18)])
 
-  var didSelectCategoryCell: ((IndexPath) -> Void)?
+  internal var didSelectCategoryCell: ((IndexPath) -> Void)?
 
-  var categoryDidScroll: ((UIScrollView) -> Void)?
+  internal var categoryDidScroll: ((UIScrollView) -> Void)?
 
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)

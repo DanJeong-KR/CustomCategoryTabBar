@@ -160,9 +160,9 @@
 		8E72B86522DDB52500E70D0D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8E72B86622DDB52500E70D0D /* CategoryView.swift */,
 				8E72B86822DDB52500E70D0D /* CategoryTabBarView.swift */,
 				8E72B86922DDB52500E70D0D /* IndicatorBarView.swift */,
+				8E72B86622DDB52500E70D0D /* CategoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

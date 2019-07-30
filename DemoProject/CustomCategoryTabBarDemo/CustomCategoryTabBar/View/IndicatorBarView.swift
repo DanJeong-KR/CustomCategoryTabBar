@@ -10,11 +10,11 @@ import UIKit
 
 class IndicatorBarView: UIView {
 
-  var categoryTitles: [String]! // 초기화부터 넣어주니까 무조건 들어가겠지
+  internal var categoryTitles: [String]! // 초기화부터 넣어주니까 무조건 들어가겠지
 
   /// 동적으로 오토레이아웃 잡기 실패
 
-  var didSelectCategoryCell: IndexPath! {
+  internal var didSelectCategoryCell: IndexPath! {
     didSet {
       let widthSize = UIScreen.main.bounds.width / CGFloat(categoryTitles.count)
       self.snp.updateConstraints {
@@ -23,7 +23,7 @@ class IndicatorBarView: UIView {
     }
   }
 
-  var categoryDidScroll: UIScrollView! {
+  internal var categoryDidScroll: UIScrollView! {
     didSet {
       let widthSize = UIScreen.main.bounds.width / CGFloat(categoryTitles.count)
       let leftOffset = self.categoryDidScroll.contentOffset.x

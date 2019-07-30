@@ -10,7 +10,7 @@ import UIKit
 
 class CategoryView: UIView {
 
-  var categoryViews: [UIView] = []
+  internal var categoryViews: [UIView] = []
 
   lazy var pageCollectionView: UICollectionView = {
     let flowLayout = UICollectionViewFlowLayout()
@@ -28,7 +28,7 @@ class CategoryView: UIView {
     return cv
   }()
 
-  var categoryViewDidEndScroll: ((Int) -> Void)?
+  internal var categoryViewDidEndScroll: ((Int) -> Void)?
 
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)

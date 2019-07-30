@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CategoryTabBarViewController: UIViewController {
+open class CategoryTabBarViewController: UIViewController {
 
   // MARK: - CategoryTabBarViewController 를 초기화할때 설정 값들 (초기화 한 후로는 변경하지 못하게 private )
   /// 카테고리를 설정할 때 얘를 설정한다.
@@ -26,7 +26,7 @@ class CategoryTabBarViewController: UIViewController {
     self.categoryTabBarScrollIsEnabled = tabBarScrollIsEnabled
   }
 
-  required init?(coder aDecoder: NSCoder) {
+  required public init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
   }
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
@@ -34,6 +34,7 @@ class CategoryTabBarViewController: UIViewController {
   }
 
   // MARK: - 변수선언
+  
   private lazy var categoryTabBarView: CategoryTabBarView = {
     let ctv = CategoryTabBarView()
     ctv.isScrollEnabled = self.categoryTabBarScrollIsEnabled
@@ -57,7 +58,7 @@ class CategoryTabBarViewController: UIViewController {
   }()
 
   // MARK: - LifeCycle
-  override func viewDidLoad() {
+  override open func viewDidLoad() {
     super.viewDidLoad()
     didSelectCategoryTabBarCell()
     categoryDidScroll()
@@ -65,7 +66,7 @@ class CategoryTabBarViewController: UIViewController {
     categoryViewDidEndScroll()
   }
 
-  override func viewWillAppear(_ animated: Bool) {
+  override open func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
 
   }
