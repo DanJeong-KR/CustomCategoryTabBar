@@ -20,7 +20,7 @@ open class CategoryTabBarViewController: UIViewController {
   private var categoryViews: [UIView]!
 
   init(withTitles categoryTitles: [String], withViews categoryViews: [UIView], withScrollOption tabBarScrollIsEnabled: Bool = true ) {
-    super.init(nibName: nil, bundle: nil)
+    super.init(nibName: nil, bundle: nil) // designate init 
     self.categoryTitles = categoryTitles
     self.categoryViews = categoryViews
     self.categoryTabBarScrollIsEnabled = tabBarScrollIsEnabled
@@ -28,9 +28,6 @@ open class CategoryTabBarViewController: UIViewController {
 
   required public init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
-  }
-  override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-    super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
   }
 
   // MARK: - 변수선언
