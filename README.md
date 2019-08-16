@@ -82,11 +82,10 @@ let vc = DemoViewController(withTitles: ["First", "Second"],
 </figure>
 
 * ### 4 categories and Category Name is `Hi` and `My` and `name` and `is`, Your code is like this
-<figure>
-<a href="/assets/categoryCodeDemo2.png">
-<img src="/assets/categoryCodeDemo2.png">
-</a>
-</figure>
+~~~ swift
+let vc = DemoViewController(withTitles: ["Hi", "My", "Name", "is"],
+                               withViews: [FirstDemoView(), SecondDemoView(), ThirdDemoView(), FourthDemoView()])
+~~~
 <figure>
 <a href="/assets/CategoryNumIs4.gif">
 <img src="/assets/CategoryNumIs4.gif">
