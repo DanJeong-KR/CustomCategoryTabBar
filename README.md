@@ -94,7 +94,7 @@ let vc = DemoViewController(withTitles: ["Hi", "My", "Name", "is"],
 
 ---
 
-<a id="#kor">한국어로 보기</a>
+<a id="kor">한국어로 보기</a>
 # Usage
 * 1. DemoProject 를 다운로드 합니다.
 
