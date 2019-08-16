@@ -20,7 +20,7 @@ mady by **Sicc**
 
 ---
 
-<a href="#eng">In English</a>
+<a id="eng">In English</a>
 
 # Usage
 * 1. DownLoad My DemoProject
@@ -94,7 +94,7 @@ let vc = DemoViewController(withTitles: ["Hi", "My", "Name", "is"],
 
 ---
 
-<a href="#kor">한국어로 보기</a>
+<a id="#kor">한국어로 보기</a>
 # Usage
 * 1. DemoProject 를 다운로드 합니다.
 
@@ -141,11 +141,10 @@ let vc = DemoViewController(withTitles: ["Hi", "My", "Name", "is"],
 
 ### 사용자가 만약
 * **2 개의 카테고리** 를 사용하고 카테고리 이름이 `First` 과 `Second` 이면, 코드는 아래와 같습니다.
-<figure>
-<a href="/assets/categoryCodeDemo1.png">
-<img src="/assets/categoryCodeDemo1.png">
-</a>
-</figure>
+~~~ swift
+let vc = DemoViewController(withTitles: ["First", "Second"],
+                               withViews: [FirstDemoView(), SecondDemoView()])
+~~~
 <figure>
 <a href="/assets/CategoryNumIs2.gif">
 <img src="/assets/CategoryNumIs2.gif">
@@ -153,11 +152,10 @@ let vc = DemoViewController(withTitles: ["Hi", "My", "Name", "is"],
 </figure>
 
 * **4 개의 카테고리** 를 사용하고 카테고리 이름이 `Hi`, `My`, `name`,  `is` 이면, 코드는 아래와 같습니다.
-<figure>
-<a href="/assets/categoryCodeDemo2.png">
-<img src="/assets/categoryCodeDemo2.png">
-</a>
-</figure>
+~~~ swift
+let vc = DemoViewController(withTitles: ["Hi", "My", "Name", "is"],
+                               withViews: [FirstDemoView(), SecondDemoView(), ThirdDemoView(), FourthDemoView()])
+~~~
 <figure>
 <a href="/assets/CategoryNumIs4.gif">
 <img src="/assets/CategoryNumIs4.gif">
