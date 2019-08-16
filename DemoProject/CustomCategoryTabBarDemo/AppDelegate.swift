@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window?.makeKeyAndVisible()
     
     let vc = DemoViewController(withTitles: ["Yellow", "Red", "Blue", ],
-                               withViews: [FirstDemoView(), SecondDemoView(), ThirdDemoView() ])
+                               withViews: [FirstDemoView(), SecondDemoView(), ThirdDemoView()])
     
     window?.rootViewController = vc
     

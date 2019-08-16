@@ -69,11 +69,12 @@ The image below is a true option, so you can scroll through the categories.
 
 ### If you need
 * ### 2 categories and Category Name is `First` and `Second`, Your code is like this
-<figure>
-<a href="/assets/categoryCodeDemo1.png">
-<img src="/assets/categoryCodeDemo1.png">
-</a>
-</figure>
+
+~~~ swift
+let vc = DemoViewController(withTitles: ["First", "Second"],
+                               withViews: [FirstDemoView(), SecondDemoView()])
+~~~
+
 <figure>
 <a href="/assets/CategoryNumIs2.gif">
 <img src="/assets/CategoryNumIs2.gif">
