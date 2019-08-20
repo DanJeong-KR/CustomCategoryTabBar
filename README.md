@@ -148,7 +148,7 @@ Thanks to everyone kind enough to submit a pull request.
 </figure>
 
 * 5. (선택사항) 마지막 인자는 카테고리가 스크롤이 가능한지에 대한 옵션입니다. 아래 사진에서는 true 옵션에 해당하는 것이어서 카테고리가 스크롤 됨을 볼 수 있습니다.
-<img src="/assets/CategoryScrollingWithIndicatorBar.gif" height = 400>
+<img src="/assets/CategoryScrollingWithIndicatorBar.gif" width = 250>
 
 
 
@@ -162,7 +162,7 @@ let vc = DemoViewController(withTitles: ["First", "Second"],
 ~~~
 <figure>
 <a href="/assets/CategoryNumIs2.gif">
-<img src="/assets/CategoryNumIs2.gif">
+<img src="/assets/CategoryNumIs2.gif" width=250>
 </a>
 </figure>
 
@@ -173,7 +173,7 @@ let vc = DemoViewController(withTitles: ["Hi", "My", "Name", "is"],
 ~~~
 <figure>
 <a href="/assets/CategoryNumIs4.gif">
-<img src="/assets/CategoryNumIs4.gif">
+<img src="/assets/CategoryNumIs4.gif" width=250>
 </a>
 </figure>
 
