@@ -1,7 +1,11 @@
 # CustomCategoryTabBar
-<a href="https://img.shields.io/badge/Version-v1.0-blue"><img src="https://img.shields.io/badge/Version-v1.0-blue"></a>
+<a href="https://img.shields.io/badge/Version-v1.0-success"><img src="https://img.shields.io/badge/Version-v1.0-success"></a>
+
 <a href="https://img.shields.io/badge/License-MIT-blue"><img src="https://img.shields.io/badge/License-MIT-blue"></a>
 
+<a href="https://img.shields.io/badge/Platform-iOS-lightgrey"><img src="https://img.shields.io/badge/Platform-iOS-lightgrey"></a>
+
+<a href="https://img.shields.io/badge/Swift-5.0-orange"><img src="https://img.shields.io/badge/Swift-5.0-orange"></a>
 
 mady by **Sicc**
 * [Gutgub](https://github.com/changSic)
