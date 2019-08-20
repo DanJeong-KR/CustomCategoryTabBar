@@ -5,7 +5,7 @@
 <a href="https://img.shields.io/badge/Swift-5.0-orange"><img src="https://img.shields.io/badge/Swift-5.0-orange"></a>
 
 
-* ustom Category TabBar created using CollectionViews and Callbacks. Dynamic AutoLayout is applied to various iOS devices.
+* Custom Category TabBar created using CollectionViews and Callbacks. Dynamic AutoLayout is applied to various iOS devices.
 
 * CollectionView와 Callback을 활용해서 구현한 커스텀 카테고리 탭바. 다이나믹 오토레이아웃을 적용했기 때문에 iOS의 다양한 기기에 적용 가능한 UI.
 
@@ -18,7 +18,11 @@
 </figure>
 
 
+
+# Usage
+
 ### 언어 선택
+
 * [English](#eng)
 
 * [한국어로 보기](#kor)
@@ -27,7 +31,6 @@
 
 <a id="eng">In English</a>
 
-# Usage
 * 1. DownLoad My DemoProject
 
 * 2. Copy `CustomCategoryTabBar`Folder and Paste this file into your Project
@@ -82,7 +85,7 @@ let vc = DemoViewController(withTitles: ["First", "Second"],
 
 <figure>
 <a href="/assets/CategoryNumIs2.gif">
-<img src="/assets/CategoryNumIs2.gif">
+<img src="/assets/CategoryNumIs2.gif width=250">
 </a>
 </figure>
 
