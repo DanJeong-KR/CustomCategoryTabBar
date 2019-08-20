@@ -36,12 +36,12 @@ If you scroll the category, IndicatorBar follows the category
 </figure>
 <figure>
 <a href="/assets/CategoryTabBarPath2.png">
-<img src="/assets/CategoryTabBarPath2.png">
+<img src="/assets/CategoryTabBarPath2.png" width=600>
 </a>
 </figure>
 <figure>
 <a href="/assets/CustomCategoryTabBarFolder.png">
-<img src="/assets/CustomCategoryTabBarFolder.png">
+<img src="/assets/CustomCategoryTabBarFolder.png" width=600>
 </a>
 </figure>
 
@@ -65,7 +65,7 @@ If you scroll the category, IndicatorBar follows the category
 
 * 5. (Optional) The last parameter is an option for whether the category can be scrolled.
 The image below is a true option, so you can scroll through the categories.
-<img src="/assets/CategoryScrollingWithIndicatorBar.gif" height = 400>
+<img src="/assets/CategoryScrollingWithIndicatorBar.gif" width = 250>
 
 
 # Examples
@@ -80,7 +80,7 @@ let vc = DemoViewController(withTitles: ["First", "Second"],
 
 <figure>
 <a href="/assets/CategoryNumIs2.gif">
-<img src="/assets/CategoryNumIs2.gif width=250">
+<img src="/assets/CategoryNumIs2.gif" width=250>
 </a>
 </figure>
 
@@ -91,7 +91,7 @@ let vc = DemoViewController(withTitles: ["Hi", "My", "Name", "is"],
 ~~~
 <figure>
 <a href="/assets/CategoryNumIs4.gif">
-<img src="/assets/CategoryNumIs4.gif">
+<img src="/assets/CategoryNumIs4.gif" width=250>
 </a>
 </figure>
 
@@ -116,17 +116,17 @@ Thanks to everyone kind enough to submit a pull request.
 * 2. `CustomCategoryTabBar`Folder 를 복사하고 자신의 프로젝트에 붙여넣기를 합니다!
 <figure>
 <a href="/assets/CategoryTabBarPath1.png">
-<img src="/assets/CategoryTabBarPath1.png">
+<img src="/assets/CategoryTabBarPath1.png" width=600>
 </a>
 </figure>
 <figure>
 <a href="/assets/CategoryTabBarPath2.png">
-<img src="/assets/CategoryTabBarPath2.png">
+<img src="/assets/CategoryTabBarPath2.png" width=600>
 </a>
 </figure>
 <figure>
 <a href="/assets/CustomCategoryTabBarFolder.png">
-<img src="/assets/CustomCategoryTabBarFolder.png">
+<img src="/assets/CustomCategoryTabBarFolder.png" width=600>
 </a>
 </figure>
 
