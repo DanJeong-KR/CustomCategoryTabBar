@@ -4,15 +4,16 @@
 <a href="https://img.shields.io/badge/Platform-iOS-lightgrey"><img src="https://img.shields.io/badge/Platform-iOS-lightgrey"></a>
 <a href="https://img.shields.io/badge/Swift-5.0-orange"><img src="https://img.shields.io/badge/Swift-5.0-orange"></a>
 
-mady by **Sicc**
-* [Gutgub](https://github.com/changSic)
-* [Blog](https://changsic.github.io/)
+
+* ustom Category TabBar created using CollectionViews and Callbacks. Dynamic AutoLayout is applied to various iOS devices.
+
+* CollectionView와 Callback을 활용해서 구현한 커스텀 카테고리 탭바. 다이나믹 오토레이아웃을 적용했기 때문에 iOS의 다양한 기기에 적용 가능한 UI.
 
 # Features
 <figure class="third">
-<img src="/assets/ViewSwipe.gif">
-<img src="/assets/CategoryTap.gif">
-<img src="/assets/CategoryScrollingWithIndicatorBar.gif">
+<img src="/assets/ViewSwipe.gif" width=250>
+<img src="/assets/CategoryTap.gif" width=250>
+<img src="/assets/CategoryScrollingWithIndicatorBar.gif width=250">
 <figcaption>If you scroll the category, IndicatorBar follows the category</figcaption>
 </figure>
 
@@ -95,6 +96,18 @@ let vc = DemoViewController(withTitles: ["Hi", "My", "Name", "is"],
 <img src="/assets/CategoryNumIs4.gif">
 </a>
 </figure>
+
+# Author
+**Sicc**. I'm Student of South Korea studying Programming
+
+* [Gutgub](https://github.com/changSic)
+* [Blog](https://changsic.github.io/)
+
+# Contributors
+Thanks to everyone kind enough to submit a pull request.
+
+# MIT License
+
 
 ---
 
