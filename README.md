@@ -10,14 +10,9 @@
 * CollectionView와 Callback을 활용해서 구현한 커스텀 카테고리 탭바. 다이나믹 오토레이아웃을 적용했기 때문에 iOS의 다양한 기기에 적용 가능한 UI.
 
 # Features
-<figure class="third">
-<img src="/assets/ViewSwipe.gif" width=250>
-<img src="/assets/CategoryTap.gif" width=250>
-<img src="/assets/CategoryScrollingWithIndicatorBar.gif width=250">
-<figcaption>If you scroll the category, IndicatorBar follows the category</figcaption>
-</figure>
+<img src="/assets/ViewSwipe.gif" width=250>  <img src="/assets/CategoryTap.gif" width=250>  <img src="/assets/CategoryScrollingWithIndicatorBar.gif" width=250>
 
-
+If you scroll the category, IndicatorBar follows the category
 
 # Usage
 
