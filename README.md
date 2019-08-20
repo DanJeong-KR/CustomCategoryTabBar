@@ -9,7 +9,14 @@
 
 * CollectionView와 Callback을 활용해서 구현한 커스텀 카테고리 탭바. 다이나믹 오토레이아웃을 적용했기 때문에 iOS의 다양한 기기에 적용 가능한 UI.
 
-# Features
+* [Features](#features)
+* [Usage](#usage)
+* [Examples](#examples)
+* [Authors](#authors)
+* [Contributors](#contributors)
+* [License](#license)
+
+# <a id="features">Features</a>
 <img src="/assets/ViewSwipe.gif" width=250>  <img src="/assets/CategoryTap.gif" width=250>  <img src="/assets/CategoryScrollingWithIndicatorBar.gif" width=250>
 
 If you scroll the category, IndicatorBar follows the category
@@ -68,7 +75,7 @@ The image below is a true option, so you can scroll through the categories.
 <img src="/assets/CategoryScrollingWithIndicatorBar.gif" width = 250>
 
 
-# Examples
+# <a id="examples">Examples</a>
 
 ### If you need
 * ### 2 categories and Category Name is `First` and `Second`, Your code is like this
@@ -168,17 +175,17 @@ let vc = DemoViewController(withTitles: ["Hi", "My", "Name", "is"],
 
 ---
 
-# Author
+# <a id="author">Author</a>
 **Sicc**. I'm Student of South Korea studying Programming
 
 * [Gutgub](https://github.com/changSic)
 * [Blog](https://changsic.github.io/)
 * [Portfolio](https://changsic.github.io/AboutSicc/)
 
-# Contributors
+# <a id="contributors">Contributors</a>
 Thanks to everyone kind enough to submit a pull request.
 
-# MIT License
+# <a id="license">MIT License</a>
 
 	Copyright (c) 2017 Andrea Mazzini. All rights reserved.
 
