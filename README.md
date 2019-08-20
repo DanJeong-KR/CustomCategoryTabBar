@@ -14,7 +14,7 @@
 
 If you scroll the category, IndicatorBar follows the category
 
-# Usage
+# <a id="usage">Usage</a>
 
 ### 언어 선택
 
