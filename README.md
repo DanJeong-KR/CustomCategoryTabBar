@@ -1,6 +1,6 @@
 # CustomCategoryTabBar
 <a href="https://img.shields.io/badge/Version-v1.0-blue"><img src="https://img.shields.io/badge/Version-v1.0-blue"></a>
-<img src="https://img.shields.io/badge/<License>-<MIT>-<blue>">
+<a href="https://img.shields.io/badge/License-MIT-blue"><img src="https://img.shields.io/badge/License-MIT-blue"></a>
 
 
 mady by **Sicc**
