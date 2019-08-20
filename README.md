@@ -31,7 +31,7 @@ If you scroll the category, IndicatorBar follows the category
 * 2. Copy `CustomCategoryTabBar`Folder and Paste this file into your Project
 <figure>
 <a href="/assets/CategoryTabBarPath1.png">
-<img src="/assets/CategoryTabBarPath1.png width=600">
+<img src="/assets/CategoryTabBarPath1.png" width=600>
 </a>
 </figure>
 <figure>
