@@ -1,5 +1,5 @@
 # CustomCategoryTabBar
-
+<img src="https://img.shields.io/badge/<Version>-<v1.0>-<blue>">
 mady by **Sicc**
 * [Gutgub](https://github.com/changSic)
 * [Blog](https://changsic.github.io/)
